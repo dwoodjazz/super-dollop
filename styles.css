@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600&family=Island+Moments&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+
+.masterDiv{
+    display: flexbox;
+    /* background-color: darkcyan; */
+    background-color: rgb(49, 94, 64);
+    width: 100%;
+    height: 1200px;
+    max-height: 1300px;
+    
+}
+
+.banner {
+    display: block; 
+    position: fixed;
+    padding: 2% 2% 2% 8%;
+    width: 30%;
+    min-width: 400px;
+    height: 30%;
+    z-index: 8;
+    /* border: lightskyblue solid 2px; */
+}
+
+.descriptions{
+    display: inline-block;
+    align-items:flex-end;
+    padding: 0 0 0 19%;
+    margin: 9% 0 0 8%;
+    height: 250px;
+    width: 300px;
+    z-index: 4;
+}
+    h2 {
+        font-size: 20px;
+        font-weight:lighter
+    }
+
+    h2:hover {
+        font-weight:bold;
+        transition: ease-in 2s;
+    }
+
+    .desItems {        transition-duration: 500ms;
+    }
+
+    .highlighted {
+        font-weight: bold;
+    }
+
+#name{
+    text-shadow: 3px 3pxx cadetblue;
+}
+
+.profilePicCard {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    /* border: solid darkblue; */
+    margin: -270px 0 0 -8%;
+    height: 240px;
+    width: 149px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.profilePicCard1 {
+    position: absolute;
+    display: flex;
+    background-color: darkslategray;
+    /* border: solid darkblue; */
+    margin: -235px 0 0 -3.5%;
+    height: 193px;
+    width: 113px;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+#profilePic {
+    margin: -17% 0 0 -10%;
+    position:absolute;
+    height: 200px;
+    width: auto;
+    z-index: 5;
+    box-shadow: 7px 6px gray;
+}
+
+
+.mainContainer {
+    /* display: flex; */
+    /* border: solid black; */
+    display:inline-block;
+    position: relative;
+    margin: 0 0 0 35%;  
+    padding: 1% 0 0 0;
+    background-image: url("assets/campland copy.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1180px;
+    /* border: solid black 2px; */
+    width: 30%;
+    z-index: 1;
+    opacity: 100%;
+    background-color: #8EA4C9;
+}
+
+/* button {
+    position:absolute;
+    font-size: 16px;
+    color: red;
+    border: solid black;
+    box-shadow: 2px;
+    padding: 2px;
+    box-shadow: 2px 2px #6A6A6A;
+    width: 150px;
+    margin: 300px 0 0 55%;
+} */
+
+/* button:hover {
+    color: white;
+    background-color: rgb(49, 94, 64);
+} */
+
+h3 {
+    color: green;
+}
+
+.quoteBox {
+    height: 500px;
+    z-index: 10;
+
+}
+
+.quotations {
+    margin: 5% 0 0 -5%;
+}
+#quoteHeader {
+    color: black;
+    margin: 3% 0 5% 5%;
+}
+.quoteHeader:hover {
+    color: white;
+}
+#wilson #manning {
+    margin: 0 0 0 -20%;
+    width: 100px;
+}
+
+.quotes,li {
+    width: 80%;
+    margin: -5px 20% 5% 18px;
+    font-family: 'Island Moments', cursive;
+    font-size: 34px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visibile{
+    visibility:visible;
+}
+
+.info {
+    position: relative;
+    padding: 2px 20px;
+    width: 15%;
+    margin: -1150px 0 0 74%;
+    /* margin: -80% 0 0 75%; */
+}
+
+p{   
+    font-size: 16px;
+}
+
+
+
+li.hidden {
+    display: none;
+    color: red;
+}
+li.visible {
+    display: visible;
+    color: black;
+}
+
+.interests li {
+    color: green;
+    font-size: 36px;
+}
+
+#pin {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin: -20% 0 0 19%;
+    z-index: 4;
+}
+
+#pin-shadow {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin: -18% 0 0 21%;
+    z-index: 3;
+
+}
+
+.interests {
+    width: 200px;
+    height: 220px;
+    padding: 1%;
+    margin: -141px 0 0 405px;
+    box-shadow: 3px 3px #6A6A6A;
+    background-color: white;
+    position: relative;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.contacts {
+    /* background-image: url("./assets/logo.PNG"); */
+    background-color: #9F9F95;
+    color: black;
+    width: 21%;
+    height: 250px;
+    margin: -10% 0 0 5%;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    padding: 1% 2%;
+    display:inline-block;
+    
+}
+
+.contacts img {
+    height: 40px;
+    width: auto;
+}
+
+.logo {
+    background-image: url("./assets/logo.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 180px;
+    margin: -181px 0 0 76% ;
+}
+
+
+.links img{
+   margin: 0 15px 0 0;
+}
+
+.links,a {
+    color: black;
+    margin: -15px 0 0 0;
+}
+
+.badges-list {
+    display: inline;
+}
+
+footer {
+    /* border: cornflowerblue solid 1px; */
+    height: 60px;
+    margin: -5% 50px 0 50px;
+    background-color: white;
+}
+
+footer img {
+    height: 30px;
+    width: auto;
+    margin: 15px 5px 25px 5px;
+} 
+
+/* @media only screen and (max-width: 1200px) {
+    
+    .info {
+        background-color: pink;
+        position: relative;
+        margin: 3px;
+        border: solid black 3px;
+    }
+} */
+    
