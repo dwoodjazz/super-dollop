@@ -10,18 +10,13 @@ li.visible {
     color: black;
 } 
 
-.logo {
+/* .logo {
     background-image: url("./assets/logo.PNG");
     background-repeat: no-repeat;
     background-size: contain;
     width: 200px;
     height: 200px;
     margin: 18% 0 0 17% ;
-}
-
-/* 
-.links img{
-   margin: 0 15px 0 0;
 } */
 
 .links,a {
@@ -52,17 +47,18 @@ nav a {
     text-decoration:none;
 }
 .container2 {
-    height: 760px;
+    height: 740px;
     display: flex;
     font-size: 48px;
     flex-wrap: wrap;
     flex-flow: wrap;
     color: rgb(94, 141, 94);
+    /* border: solid darkslategray 2px; */
+
 }
 
 .container2subs {
     position:relative;
-    display: flex;
     color: rgb(94, 141, 94);
     height: 40%;
     margin-right: 15px;
@@ -85,10 +81,12 @@ nav a {
 }
 
 #subD {
-    position:static;
+    /* position:static; */
     /* justify-content: space-between; */
+    display:flexbox;
+    flex-direction: column;
     width: 70%;
-    height: 35%;
+    height: 15%;
     border-top: solid darkslategray 2px;
     z-index: -1;
 }
@@ -99,8 +97,10 @@ nav a {
     margin: -270px 0 0 55%;
     background-color: white;
     border: solid 1px rgb(49, 94, 64);
-    height: 400px;
-    width: 269px;
+    /* height: 400px;
+    width: 269px; */
+    height: 150%;
+    width: 94%;
     border-radius: 3px;
     z-index: 8;
 }
@@ -109,9 +109,11 @@ nav a {
     position: absolute;
     display: flex;
     background-color: darkslategray;
-    margin: 8px 0 0 10px;
-    height: 380px;
-    width: 250px;
+    margin: 8px 0 0 8px;
+    /* height: 380px;
+    width: 250px; */
+    height: 96%;
+    width: 94%;
     border-radius: 2px;
     justify-content: center;
     align-items: center;
@@ -138,7 +140,7 @@ nav a {
 
 #sig {
     position: absolute;
-    margin: 30px 0 0 320px;
+    margin: -50px 0 0 50%;
     border-radius: 3px;
     opacity: 70%;
     height:40px;
@@ -161,7 +163,7 @@ h1 {
 }
 
 .descriptions{
-    margin: 150px 0 0 -85%;
+    margin: 70px 0 0 35%;
     height: 250px;
     width: 350px;
     z-index: 4;
@@ -236,7 +238,7 @@ h1 {
     p{   
         color:darkslategray;
         font-size: 20px;
-        width: 40%;
+        width: 40%; 
     }
     
     p:hover {
@@ -249,12 +251,13 @@ h1 {
     } 
 
     #bio {
-        margin: 50px 25px 0 -5px;
+        margin: -20px 25px 0 15%;
         width: 35%;
+        height: 180px;
     }
 
     #experience {
-        margin: 50px 0 0 0;
+        margin: -182px 0 0 55%;
     }
 
 
@@ -303,15 +306,6 @@ h1 {
         z-index: 10;
     }
     
-    #pin-shadow {
-        position: absolute;
-        height: 40px;
-        width: 40px;
-        /* margin: -44% 0 0 9%; */
-        /* margin: -650px 0 0 -90px; */
-        z-index: 4;
-    }
-    
     #pin-shadow2 {
         position: sticky;
         height: 36px;
@@ -326,21 +320,24 @@ h1 {
         color: darkslategray;
         font-size: 14px;
     }
+    .container2-B {
+        visibility: hidden;
+    }
 
 .container3 {
     display: flexbox;
     position: relative;
     height: 400px;
     width: 100%;
-    margin: -60px 0 0 0;
+    margin: -220px 0 0 0;
     background-color: #E1BC8B;
     border-radius: 3px;
 }
 .quoteBox {
     display: fixed;
-    height: 300px;
+    height: auto;
     z-index: 10;
-    margin: -30px 0 0 0;
+    /* margin: -30px 0 0 0; */
 }
 
 .quotations {
@@ -443,7 +440,7 @@ footer img {
         margin: 20px 0 0 0%;
     }
     #sig {
-        margin: 20px 0 0 40%;
+        margin: -49px 0 0 40%;
     }
     .banner {
         margin: 0 0 0 0%;
@@ -451,7 +448,22 @@ footer img {
 
     }
     .descriptions {
-        margin: 150px 0 0 -65%;
+        margin: 60px 0 0 35%;
+    }
+
+    .profilePicCard {
+        height: 130%;
+        width: 95%;
+    }
+
+    .profilePicCard1 {
+        height: 95%;
+        width: 95%;
+    }
+    
+    #profilePic {
+        height: 285px;
+        width: auto;
     }
 }
 
@@ -475,7 +487,7 @@ footer img {
         margin: 20px 0 0 0%;
     }
     .descriptions {
-        margin: 150px 0 0 -55%;
+        margin: 50px 0 0 15%;
     }
 }
 
@@ -487,14 +499,27 @@ footer img {
         margin: 20px 0 0 0%;
     }
     .descriptions {
-        margin: 150px 0 0 -35%;
+        margin: 80px 0 0 15%;
     }
 
     .interests {
         margin: -541px 0 0 79%;
 
     }
+    .profilePicCard {
+        height: 110%;
+        width: 95%;
+    }
 
+    .profilePicCard1 {
+        height: 96%;
+        width: 95%;
+    }
+    
+    #profilePic {
+        height: 265px;
+        width: auto;
+    }
     #pin {
         position: sticky;
         height: 40px;
@@ -543,13 +568,27 @@ footer img {
         height: 40px;
         margin: 10px 0 0 0%;
     }
-    .descriptions {
+    /* .descriptions {
         margin: 150px 0 0 -25%;
         border: solid pink 1px;
         width: 300px;
 
+    } */
+    .profilePicCard {
+        margin: -220px 0 0 55%;
+        height: 100%;
+        width: 95%;
     }
 
+    .profilePicCard1 {
+        height: 96%;
+        width: 93%;
+    }
+    
+    #profilePic {
+        height: 245px;
+        width: auto;
+    }
     .interests {
         margin: -541px 0 0 79%;
 
@@ -582,5 +621,121 @@ footer img {
         margin: -545px 0 0 -30px;
         transform: rotate(20deg);
         z-index: 3;
+    }
+    .quoteBox {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    #name {
+        color: rgba(244, 129, 52, 0.79);  
+    }
+
+    .profilePicCard {
+        margin: -180px 0 0 35%;
+        height: 90%;
+        width: 95%;
+    }
+    
+    #profilePic {
+        height: 90%;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #name {
+        color: rgba(210, 2, 2, 0.79);  
+    }
+    .profilePicCard {
+        margin: -180px 0 0 35%;
+        height: 250px;
+        width: 190px;
+    }
+    .profilePicCard1 {
+        /* margin: -180px 0 0 35%; */
+        height: 96%;
+        width: 92%;
+    }
+    
+    #profilePic {
+        height: 235px;
+        width: auto;
+    }
+    #pin {
+        position: sticky;
+        height: 40px;
+        width: 40px;
+        /* margin: -45% 0 0 7%; */
+        /* margin: 43px 0 0 81%; */
+        margin: -550px 0 0 -90px;
+        z-index: 10;
+    }
+    .container3 {
+        margin: -20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    #name {
+        color: rgba(59, 208, 158, 0.81);  
+    }
+    #subA {
+        width: 10%;
+    
+    }
+    #subB {
+        width: 80%;
+        /* border: solid black 1px; */
+    
+    }
+    #subC {
+        width: 10%;
+    }
+
+    #subD {
+        width: 80%;
+    }
+
+    #profilePicDesktop {
+        visibility: hidden;
+    }
+
+    .container2-B {
+        visibility: visible;
+        display: flexbox;
+        border: solid hotpink 2px;
+        height: 300px;
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+
+
+    #profilePicMobile {
+        margin: 24px 0 0 120px;
+    }
+    /* .container3 {
+        margin: 105px 0 0 0;
+    } */
+    /* .interests{
+        margin: 0;
+    } */
+
+    #sticky-note{
+        margin: 250px 0 0 400px;
+    }
+    .descriptions {
+        margin: 70px 0 0 15%;
+    }
+    .edu {
+        margin: -20px 0 0 0px;
+    }
+    .mus {
+        margin: 60px 0 0 0px;
+    }
+    .container3 {
+        margin: 0 0 0 0;
     }
 }
