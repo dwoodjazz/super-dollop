@@ -1,36 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600&family=Island+Moments&display=swap');
 
-* {
-    font-family: 'Dosis', sans-serif;
-    color:white;
-}
 
-li.visible {
+/* li.visible {
     display: visible;
     color: black;
 } 
-
-/* .logo {
-    background-image: url("./assets/logo.PNG");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    margin: 18% 0 0 17% ;
-} */
-
+*/
 .links,a {
     color: black;
     font-size: 14px;
-}
-
-
-
+} 
 
 
 /*  start of the new page --------------------->*/
 body{
     height: 2000px;
+}
+
+* {
+    font-family: 'Dosis', sans-serif;
+    color:white;
 }
 
 nav {
@@ -51,8 +40,6 @@ nav a {
     display: flex;
     font-size: 48px;
     flex-wrap: wrap;
-    flex-flow: wrap;
-    color: rgb(94, 141, 94);
     /* border: solid darkslategray 2px; */
 
 }
@@ -60,7 +47,7 @@ nav a {
 .container2subs {
     position:relative;
     color: rgb(94, 141, 94);
-    height: 40%;
+    height: 50%;
     margin-right: 15px;
 }
 #subA {
@@ -70,7 +57,6 @@ nav a {
 }
 #subB {
     width: 70%;
-    /* border: solid black 1px; */
 
 }
 
@@ -81,8 +67,6 @@ nav a {
 }
 
 #subD {
-    /* position:static; */
-    /* justify-content: space-between; */
     display:flexbox;
     flex-direction: column;
     width: 70%;
@@ -94,11 +78,9 @@ nav a {
 .profilePicCard {
     position: absolute;
     display: flex;
-    margin: -270px 0 0 55%;
+    margin: -180px 0 0 55%;
     background-color: white;
     border: solid 1px rgb(49, 94, 64);
-    /* height: 400px;
-    width: 269px; */
     height: 150%;
     width: 94%;
     border-radius: 3px;
@@ -126,7 +108,6 @@ nav a {
     width: auto;
     z-index: 10;
 }
-
 #name {
     font-size: 48px;
     color: darkslategray;
@@ -140,7 +121,7 @@ nav a {
 
 #sig {
     position: absolute;
-    margin: -50px 0 0 50%;
+    margin: -50px 0 0 60%;
     border-radius: 3px;
     opacity: 70%;
     height:40px;
@@ -163,7 +144,7 @@ h1 {
 }
 
 .descriptions{
-    margin: 70px 0 0 35%;
+    margin: 90px 0 0 35%;
     height: 250px;
     width: 350px;
     z-index: 4;
@@ -187,15 +168,10 @@ h1 {
         font-weight:lighter
     }
 
-    /* h2:hover {
-        font-weight:bold;
-        transition: ease-in 2s;
-        color: rgb(100, 214, 77);
-    } */
-
     .highlighted {
         font-weight: bold;
-        font-size: 28px;
+        font-size: 26px;
+        margin: 0 0 0 -38px;
     }
 
     .descSkills li{
@@ -218,12 +194,12 @@ h1 {
     }
     #eduSkills{
         width: 240px;
-        margin: -56px 0 0 120px;
+        margin: -56px 0 0 140px;
         padding: 15px 0 0 5px;
     }
     #musSkills{
         width: 200px;
-        margin: -56px 0 0 110px;
+        margin: -56px 0 0 135px;
         padding: 15px 0 0 5px;
     }
 
@@ -231,13 +207,11 @@ h1 {
         width: 10px;
         height: 50px;
         font-size: 48px;
-        background-color: red;
-        border: solid red 2px;
     }
 
     p{   
         color:darkslategray;
-        font-size: 20px;
+        font-size: 16px;
         width: 40%; 
     }
     
@@ -265,11 +239,10 @@ h1 {
         position: relative;
         background-color: rgb(214, 237, 215);
         width: 140px;
-        height: 196px;
-        padding: 1%;
+        height: 226px;
+        padding: 0 1% 0 0;
         /* margin: -641px 0 0 1095px; */
         margin: -641px 0 0 79%;
-
         box-shadow: 3px 3px #6A6A6A;
         position: relative;
         border-radius: 2px;
@@ -329,7 +302,7 @@ h1 {
     position: relative;
     height: 400px;
     width: 100%;
-    margin: -220px 0 0 0;
+    margin: -120px 0 0 0;
     background-color: #E1BC8B;
     border-radius: 3px;
 }
@@ -342,6 +315,7 @@ h1 {
 
 .quotations {
     margin: 5% 0 0 15%;
+    height: 400px;
 }
 #quoteHeader {
     color: black;
@@ -360,7 +334,7 @@ h1 {
     margin: 0 0 0 -20%;
     width: 100px;
 }
-
+/* problem: effects ALL li's */
 .quotes,li {
     width: 80%;
     margin: -5px 20% 5% 18px;
@@ -381,26 +355,24 @@ h1 {
     background-repeat:no-repeat;
     background-size:cover;
     height: 500px;
+    display: flexbox;
+    padding: 0 0 0 300px;
 }
 
 .container4 a{
     margin: 0 15px 0 45px;
  }
 
- .container4 {
-    display: flexbox;
-    padding: 0 0 0 300px;
-}
 .container4 img {
     position:relative;
     display: flexbox;
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 .container4 a {
     flex-basis: 0fr;
     color: white;
-    font-size: 32px;
+    font-size: 26px;
     display: inline;
     height: 120px;
     width: 150px;
@@ -440,7 +412,7 @@ footer img {
         margin: 20px 0 0 0%;
     }
     #sig {
-        margin: -49px 0 0 40%;
+        margin: -49px 0 0 50%;
     }
     .banner {
         margin: 0 0 0 0%;
@@ -465,6 +437,7 @@ footer img {
         height: 285px;
         width: auto;
     }
+
 }
 
 @media only screen and (max-width: 1220px) {
@@ -492,16 +465,21 @@ footer img {
 }
 
 @media only screen and (max-width: 1180px) {
+    nav {
+        width: 70%;
+    }
     #name {
         color: rgb(103, 192, 204);  
         /* border: solid pink 1px; */
         width: 350px;
         margin: 20px 0 0 0%;
     }
+    #sig {
+        margin: -50px 0 0 50%;
+    }
     .descriptions {
         margin: 80px 0 0 15%;
     }
-
     .interests {
         margin: -541px 0 0 79%;
 
@@ -552,6 +530,9 @@ footer img {
 
 @media only screen and (max-width: 1100px) {
     
+    nav {
+        width: 75%;
+    }
     .container2 {
         height: 760px;
         display:flexbox;
@@ -563,17 +544,15 @@ footer img {
     #name {
         flex-basis: 4fr;
         color: rgb(204, 103, 175);  
-        border: solid pink 1px;
         width: 350px;
         height: 40px;
         margin: 10px 0 0 0%;
     }
-    /* .descriptions {
-        margin: 150px 0 0 -25%;
-        border: solid pink 1px;
-        width: 300px;
+    #sig{
+        margin: -50px 0 0 50%;
 
-    } */
+    }
+
     .profilePicCard {
         margin: -220px 0 0 55%;
         height: 100%;
@@ -625,6 +604,9 @@ footer img {
     .quoteBox {
         height: 350px;
     }
+    .container3 {
+        margin: -100px 0 0 0;
+    }
 }
 
 @media only screen and (max-width: 950px) {
@@ -632,7 +614,14 @@ footer img {
     #name {
         color: rgba(244, 129, 52, 0.79);  
     }
+    #sig {
+        margin: -50px 0 0 50%;
+    }
 
+    nav {
+        /* margin: 0 80px 0 0; */
+        width: 65%;
+    }
     .profilePicCard {
         margin: -180px 0 0 35%;
         height: 90%;
@@ -643,45 +632,25 @@ footer img {
         height: 90%;
         width: auto;
     }
+    .container3 {
+        margin: -80px 0 0 0;
+    }
+    .interests {
+        margin: -60% 0 0 69%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
+    nav {
+        width: 72%;
+    }
     #name {
         color: rgba(210, 2, 2, 0.79);  
     }
-    .profilePicCard {
-        margin: -180px 0 0 35%;
-        height: 250px;
-        width: 190px;
+    #sig {
+        margin: -50px 0 0 350px;
     }
-    .profilePicCard1 {
-        /* margin: -180px 0 0 35%; */
-        height: 96%;
-        width: 92%;
-    }
-    
-    #profilePic {
-        height: 235px;
-        width: auto;
-    }
-    #pin {
-        position: sticky;
-        height: 40px;
-        width: 40px;
-        /* margin: -45% 0 0 7%; */
-        /* margin: 43px 0 0 81%; */
-        margin: -550px 0 0 -90px;
-        z-index: 10;
-    }
-    .container3 {
-        margin: -20px 0 0 0;
-    }
-}
 
-@media only screen and (max-width: 795px) {
-    #name {
-        color: rgba(59, 208, 158, 0.81);  
-    }
     #subA {
         width: 10%;
     
@@ -699,43 +668,389 @@ footer img {
         width: 80%;
     }
 
+    .profilePicCard {
+        margin: -180px 0 0 35%;
+        height: 250px;
+        width: 190px;
+    }
+    .profilePicCard1 {
+        /* margin: -180px 0 0 35%; */
+        height: 96%;
+        width: 92%;
+    }
+    
+    #profilePic {
+        height: 235px;
+        width: auto;
+    }
+    .descriptions {
+        margin: 80px 0 0 80px;
+    }
+    #frontSkills {
+        margin: 10px 0 0 100px;
+    }
+    #edu {
+        margin: -80px 0 0 0;
+    }
+    #eduSkills {
+        margin: -35px 0 0 110px;
+    }
+    #bio {
+        margin: 20px 0 0 0;
+    }
+    #experience {
+        margin: -180px 0 0 250px;
+    }
+    .interests {
+        margin: -550px 0 0 69%;
+    }
+    #pin {
+        position: sticky;
+        height: 40px;
+        width: 40px;
+        /* margin: -45% 0 0 7%; */
+        /* margin: 43px 0 0 81%; */
+        margin: -550px 0 0 -90px;
+        z-index: 10;
+    }
+    .container3 {
+        margin: -20px 0 0 0;
+    }
+    .container4 {
+        padding:10px 0;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    nav {
+        width: 62%;
+    }
+    #name {
+        color: rgba(59, 208, 158, 0.81);  
+    }
+    #subA {
+        width: 5%;
+    
+    }
+    #subB {
+        width: 85%;
+    }
+    #subC {
+        width: 5%;
+    }
+
+    #subD {
+        width: 80%;
+    }
+    #bio {
+        margin: -40px 0 0 0;
+        width: 165;
+    }
+    #experience {
+        width: 165px;
+    }
     #profilePicDesktop {
         visibility: hidden;
     }
-
-    .container2-B {
+    .container2-B { 
         visibility: visible;
         display: flexbox;
-        border: solid hotpink 2px;
-        height: 300px;
+        height: 350px;
         width: 100%;
-        margin: 30px 0 0 0;
+        margin: -60px 0 0 0;
     }
-
 
     #profilePicMobile {
-        margin: 24px 0 0 120px;
-    }
-    /* .container3 {
-        margin: 105px 0 0 0;
-    } */
-    /* .interests{
-        margin: 0;
-    } */
-
-    #sticky-note{
-        margin: 250px 0 0 400px;
+        margin: 94px 0 0 80px;
+        width: 25%;
+        height: 25%;
     }
     .descriptions {
-        margin: 70px 0 0 15%;
+        margin: 70px 0 0 0%;
     }
-    .edu {
-        margin: -20px 0 0 0px;
+    .descItems {
+        margin: -20px 0 0 0;
     }
-    .mus {
-        margin: 60px 0 0 0px;
+    #edu {
+        margin: -120px 0 0 0px;
+    }
+    #mus {
+        margin: 60px 30px 0 0px;
+    }
+    #musSkills {
+        margin: -40px 0 0 120px;
     }
     .container3 {
         margin: 0 0 0 0;
+        height: 500px;
     }
+    .interests {
+        margin: 240px 0 0 39%;
+    }
+    #pin {
+        margin: 240px 0 0 -90px;
+    }
+    #pin-shadow2 {
+        margin: 246px 0 0 -30px;
+    }
+    .quotations {
+        margin: 0 0 0 20px;
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 732px) {
+    nav {
+        display: flexbox;
+        text-align: right;
+        width: 450px;
+    }
+    #name {
+        color:olive;
+        margin: 0 0 0 50px;
+    }
+    #sig{
+        margin: -20px 0 0 450px;
+    }
+    .descriptions {
+        margin: 80px 0 0 0;
+    }
+    #subD {
+    display: inline-block;
+    /* border: solid yellow 2px; */
+    text-overflow: ellipsis;
+    }
+    #bio {
+        width: 200px;
+    }
+    .container2-B {
+        /* border: solid pink 2px; */
+        margin: 20px 0 30px 0;
+    }
+    #profilePicMobile {
+        margin: 0% 0 0 5%;
+        width: 210px;
+        height: 270px;
+    }
+    #sticky-note{
+        margin: 35% 0 0 39%;
+    }
+    #pin {
+        margin: 230px 0 0 -90px;
+    }
+    #pin-shadow2 {
+        margin: 236px 0 0 -30px;
+    }
+    .container3 {
+        display: inline-block;
+    }
+    .container2-B {
+        height: 400px;
+    }
+    .container3 {
+        height: 520px;
+    }
+    .quotations {
+        width:400px;
+        margin: 10px 0 0 30px;
+    }
+    .container4 img {
+        height: 60px;
+        width: 60px;
+    }
+    footer {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 643px) {
+    nav {
+        width: 330px;
+    }
+    #name {
+        color:orchid;
+        margin: 0 0 0 0px;
+
+    }
+    #sig {
+        margin: -29px 0 0 420px;
+    }
+    .descriptions {
+        margin: 100px 0 0 -30px;
+    }
+    .edu {
+        margin: -130px 0 0 0;
+    }
+    .mus {
+        margin: -15px 0 30px 0;
+    }
+
+    #subD{
+        display: flexbox;
+        width: 400px;
+    }
+
+    #subD p {
+        width: 80%;
+    }
+    #experience{
+        margin: 50px 0 0 0px;
+    }
+    /* .quotations {
+        margin: 0% 0 0 0%;
+    } */
+
+    #profilePicMobile {
+        margin: 18% 0 0 0%;
+    }
+    .container2-B{
+        margin: 15% 0 0 0;
+        height: 400px;
+    }
+    #sticky-note{
+        margin: 320px 0 0 37%;
+    }
+    #pin {
+        margin: 300px 0 0 -90px;
+    }
+    #pin-shadow2 {
+        margin: 306px 0 0 -30px;
+    }
+    #bio {
+        margin : 0 0 0 30px;
+    }
+    #experience {
+        margin : 60px 0 0 30px;
+    }
+    .container2-B {
+        margin: 80px 0 0 0;
+    }
+    .quotations {
+        width: 60%;
+    }
+    .container4 {
+        height: 350px;
+    }
+    footer {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 631px) {
+    footer{
+        height: 120px;
+    } 
+}
+@media only screen and (max-width: 530px) {
+    nav {
+        margin:  0 0 0 -15px;
+    }
+    #name {
+        color:rgba(36, 203, 21, 0.925);
+        margin: 0 0 0 -10px;
+    }
+    #sig {
+        margin: -66px 0 0 320px;
+    }
+    .descriptions {
+        margin: 80px 0 0 -30px;
+    }
+   
+    #subD p{
+        width: 290px;
+    }
+
+    #experience {
+        width: 140px;   
+        margin: 10px 0 0 27px;
+    }
+    #profilePicMobile {
+        margin: 90px 0 0 0;
+    }
+    #sticky-note {
+        margin: 260px 0 0 45%;
+        z-index: 10;
+    }
+    .quotations 
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 497px) {
+    nav {
+        width: 320px;
+    }
+    #name {
+        color: darkslategray;
+    }
+    #sig {
+        visibility: hidden;
+    }
+    #subD p {
+        width: 300px;
+    } 
+
+     #subA {
+        width: 15px;
+        position: relative;
+    }
+    #subB {
+        width: 86%;
+        /* border: solid red 2px; */
+    }
+    #subC {
+        width: 15px;
+    }
+    
+    #subD{
+        width: 86%;
+
+    }
+    .descriptions {
+        margin: 120px 0 0 0;
+    }
+    #front {
+        margin: 0;
+    }
+    #subC {
+        position: sticky;
+        height: 304px;
+        width: 15px;
+    }
+    #experience {
+        margin: 0px 0 0 33px;
+    }
+    #profilePicMobile {
+        margin: 30px 0 0 0;
+    }
+    #sticky-note {
+        margin: 200px 0 0 59%;
+    }
+    #pin {
+        margin: 200px 0 0 -90px;
+    }
+    #pin-shadow2 {
+        margin: 206px 0 0 -30px;
+    }
+    
+   .quotes {
+       font-size: 36px;
+       width: 250px;
+   }
+   footer img {
+    width: 20px;
+    height: auto;
+   }
+   .container4 {
+       height: 220px;
+   }
+   .container4 img{
+    width: 20px;
+    height: auto;
+   }
+   footer {
+       width: 300px;
+       height: 50px;
+       margin: 10px 0 0 30px;
+   }
 }
