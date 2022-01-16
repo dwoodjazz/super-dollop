@@ -22,4 +22,5 @@ recommended to me by several senior developers.
 + publishing to the web
 + Vue app framework
 
-This static site will be simple, modern, sleek, and will use lots of whitespace. I want it to be a clean introduction to who I am and my current skills. I envision an H1 header, a profile pick, some slick but sparse background decoration, and a counter or some interactive element. # super-dollop
+This static site will be simple, modern, sleek, and will use lots of whitespace. I want it to be a clean introduction to who I am and my current skills. I envision an H1 header, a profile pick, some slick but sparse background decoration, and a counter or some interactive element. 
+### github repository super-dollop

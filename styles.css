@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600&family=Island+Moments&display=swap');
 
-
-/* li.visible {
-    display: visible;
-    color: black;
-} 
-*/
-
-
-
-/*  start of the new page --------------------->*/
 body{
     height: 2000px;
 }
@@ -316,7 +306,6 @@ h1 {
 .container4 a{
     margin: 0 15px 0 45px;
  }
-
 .container4 img {
     position:relative;
     display: flexbox;
