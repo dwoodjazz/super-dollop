@@ -935,9 +935,11 @@ footer img {
     }
     #bio {
         margin: 0px 0 0 20px;
+        color: black;
     }
     #experience {
         margin: 0px 0 0 20px;
+        color: black;
     }
     #profilePicMobile {
         margin: 30px 0 0 0;
